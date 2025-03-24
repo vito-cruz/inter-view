@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #FDFDFD;
+}
+
+
+.bar{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #7213D0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.iconPhone{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 27px;
+    left:1250 ;
+}
+
+.iconBell{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 30px;
+
+    left:1350 ;
+
+}
+
+.iconUser1{
+    position: absolute;
+    margin-top: 30px;
+
+    width: 24px;
+    height: 24px;
+    left:1450 ;
+
+}
+
+.webName{
+    position: absolute;
+    top:35px;
+    left: 106px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+.nav{
+    position: absolute;
+    z-index: 0;
+    width: 391px;
+    height: 1024px;
+    background: linear-gradient(to bottom, #7213D0, #7213D0,#A161E0, #B27EE5);
+
+}
+
+.pageTitle{
+    position: absolute;
+    top: 112px;
+    left: 478px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #4D004D;
+}
+
+
+
+.line{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 171px;
+}
+
+.line2{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 229px;
+}
+
+.line3{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 287px;
+}
+
+.line4{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 345px;
+}
+
+.line5{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 403px;
+}
+
+.line6{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 461px;
+}
+
+.line7{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 519px;
+}
+
+.line8{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 577px;
+}
+
+.iconBack{
+    position: absolute;
+        top: 112px;
+        left: 413px;
+        width: 45px;
+        height: 45px;
+}
+
+.homeBTN{
+    position: relative;
+    z-index: 1;
+    top:125px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.applicantBTN{
+    position: absolute;
+    top:183px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admissionBTN{
+    position: absolute;
+    top:241px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.creteriaBTN{
+    position: absolute;
+    top:299px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.interviewSchedulingBTN{
+    position: absolute;
+    top:357px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7213D0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.testSchedulingBTN{
+    position: absolute;
+    top:415px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admissionResultBTN{
+    position: absolute;
+    top:473px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.userManagementBTN{
+    position: absolute;
+    top:531px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.picker{
+   position: absolute;
+    background-color: #FDFDFD;
+    width: 393px;
+    height: 59px;
+    top: 345px;
+    z-index: -1;
+}
+
+        
+    .iconHome{
+        position: absolute;
+        top: 127px;
+        left: 35px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconApplicants{
+        position: absolute;
+
+        top: 185px;
+        left: 39px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconAdmission{
+        position: absolute;
+
+        top: 240px;
+        left: 34px;
+        width: 30px;    
+        height: 30px;
+    }
+    .iconCriteria{
+        position: absolute;
+
+        top: 300px;
+        left: 39px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconInt{
+        position: absolute;
+
+        top: 357px;
+        left: 36px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconTest{
+        position: absolute;
+ 
+        top: 413px;
+        left: 36px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconRes{
+        position: absolute;
+
+        top: 475px;
+        left: 37px;
+        width: 30px;
+        height: 30px;
+    }
+    .iconUser{
+        position: absolute;
+
+        top: 531px;
+        left: 34px;
+        width: 30px;
+        height: 30px;
+    }
+
+
+
+
+.interview-cards-container {
+    position: absolute;
+    display: grid;
+    max-width: 1000px;
+    margin-left: 20;
+}
+
+.card-title {
+    font-size: 20px;    
+    font-weight: 400;
+    color:#4D004D ;
+    top: 328px;
+    left: 529px;
+    width: 208px;
+}
+
+.interview-card1 {
+    position: absolute;
+    top: 183px;
+    left: 413px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 150px;
+}
+.interview-card2 {
+    position: absolute;
+    top: 183px;
+    left: 683px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 150px;
+}
+.interview-card3 {
+    position: absolute;
+    top: 183px;
+    left: 953px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 150px;
+}
+.interview-card4 {
+    position: absolute;
+    top: 183px;
+    left: 1223px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 150px;
+}
+.interview-card5 {
+    position: absolute;
+    top: 350px;
+    left: 413px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    width: 250px;
+    height: 150px;
+    
+}
+
+
+
+.interview-card1:hover {
+    transform: translateY(-5px);
+}
+.interview-card2:hover {
+    transform: translateY(-5px);
+}
+.interview-card3:hover {
+    transform: translateY(-5px);
+}
+.interview-card4:hover {
+    transform: translateY(-5px);
+}
+.interview-card5:hover {
+    transform: translateY(-5px);
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.card-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+
+

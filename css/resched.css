@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #FDFDFD;
+}
+
+
+.bar{
+    position: absolute;
+    z-index: 1;
+    width: 100% ;
+    height: 90px;
+    display: flex;
+    background-color: #7213D0;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.iconPhone{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-top: 27px;
+    left:1250 ;
+}
+
+.iconBell{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 30px;
+
+    left:1350 ;
+
+}
+
+.iconUser1{
+    position: absolute;
+    margin-top: 30px;
+
+    width: 24px;
+    height: 24px;
+    left:1450 ;
+
+}
+
+.webName{
+    position: absolute;
+    top:35px;
+    left: 106px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+
+
+
+.nav{
+    position: absolute;
+    z-index: 0;
+    width: 391px;
+    height: 1024px;
+    background: linear-gradient(to bottom, #7213D0, #7213D0,#A161E0, #B27EE5);
+
+}
+
+.pageTitle{
+    position: absolute;
+    top: 112px;
+    left: 478px;
+    font-weight: 400;
+    font-size: 32px;
+    color: #4D004D;
+}
+
+.iconBack{
+    position: absolute;
+        top: 112px;
+        left: 413px;
+        width: 45px;
+        height: 45px;
+}
+
+.line{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 171px;
+}
+
+.line2{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 229px;
+}
+
+.line3{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 287px;
+}
+
+.line4{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 345px;
+}
+
+.line5{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 403px;
+}
+
+.line6{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 461px;
+}
+
+.line7{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 519px;
+}
+
+.line8{
+    position: absolute;
+    width: 391px;
+    opacity: 50%;
+    color: white;
+    top: 577px;
+}
+
+      
+.iconHome{
+    position: absolute;
+    top: 127px;
+    left: 35px;
+    width: 30px;
+    height: 30px;
+}
+.iconApplicants{
+    position: absolute;
+
+    top: 185px;
+    left: 39px;
+    width: 30px;
+    height: 30px;
+}
+.iconAdmission{
+    position: absolute;
+
+    top: 240px;
+    left: 34px;
+    width: 30px;    
+    height: 30px;
+}
+.iconCriteria{
+    position: absolute;
+
+    top: 300px;
+    left: 39px;
+    width: 30px;
+    height: 30px;
+}
+.iconInt{
+    position: absolute;
+
+    top: 357px;
+    left: 36px;
+    width: 30px;
+    height: 30px;
+}
+.iconTest{
+    position: absolute;
+
+    top: 413px;
+    left: 36px;
+    width: 30px;
+    height: 30px;
+}
+.iconRes{
+    position: absolute;
+
+    top: 475px;
+    left: 37px;
+    width: 30px;
+    height: 30px;
+}
+.iconUser{
+    position: absolute;
+
+    top: 531px;
+    left: 34px;
+    width: 30px;
+    height: 30px;
+}
+
+
+.homeBTN{
+    position: relative;
+    z-index: 1;
+    top:125px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.applicantBTN{
+    position: absolute;
+    top:183px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admissionBTN{
+    position: absolute;
+    top:241px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.creteriaBTN{
+    position: absolute;
+    top:299px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.interviewSchedulingBTN{
+    position: absolute;
+    top:357px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #7213D0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.testSchedulingBTN{
+    position: absolute;
+    top:415px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admissionResultBTN{
+    position: absolute;
+    top:473px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.userManagementBTN{
+    position: absolute;
+    top:531px;
+    left: 89px;
+    width: 249px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.picker{
+   position: absolute;
+    background-color: #FDFDFD;
+    width: 393px;
+    height: 59px;
+    top: 345px;
+    z-index: -1;
+}
+
+
+
+
+
+.applicantTable {
+    position: absolute;
+    left: 394px;
+    top: 180px;
+    width:1090px;
+    text-align: left;
+    margin: 20px;
+    display: block !important;
+    visibility: visible !important;
+    background: lightgray;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #7213D0;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 11px;
+    height: 51;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #d4d4d4;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFFFFF;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Content */
+.modal-content {
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 458px;
+    height: 594px;
+    text-align: left;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.formName{
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #4D004D ;
+}
+/* Label Styling */
+.label {
+    display: block;
+    font-size: 13px;
+    font-weight: 300px;
+    margin-bottom: 5px;
+}
+
+/* Input Styling */
+input, select {
+    width: 317px;
+    height: 43px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Container for Date and Time */
+.date-time-container {
+    display: flex;
+    gap: 10px; /* Space between Date and Time */
+}
+
+/* Time Interval Box */
+.time-box {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between time inputs */
+}
+
+/* Styling for Time Inputs */
+#startTime, 
+#endTime {
+    width: 105px;
+    height: 43px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    padding: 5px;
+}
+
+#scheduleDate{
+    width: 120px;
+}
+/* Styling for "to" separator */
+.time-separator {
+    font-size: 16px;
+    font-weight: 400px;
+}
+/* Centered Inputs */
+#mode,
+#panel1,
+#panel2,
+#panel3,    
+#location {
+    width: 357px;
+    height: 43px;
+}
+
+#mode {
+    top: 575px;
+}
+
+#location {
+    top: 509px;
+}
+
+#panel1 {
+    top: 575px;
+}
+
+#panel2 {
+    top: 641px;
+}
+
+#panel3 {
+    top: 707px;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Cancel Button */
+.cancel-btn {
+    background-color: #DBDBDB;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 155px;
+    height: 50px;
+}
+
+.cancel-btn, .save-btn{
+margin-bottom: 40px;
+}
+/* Save Button */
+.save-btn {
+    background-color: #A161E0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 155px;
+    height: 50px;
+}
+
+/* Hover Effects */
+.cancel-btn:hover {
+    background-color: #C9C9C9;
+}
+
+.save-btn:hover {
+    background-color: #7213D0;
+}
