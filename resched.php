@@ -149,10 +149,10 @@
             <input type="text" id="panel1" name="panel1" required>
 
             <label for="panel2" class="label">Panel 2 Name</label>
-            <input type="text" id="panel2" name="panel2" required>
+            <input type="text" id="panel2" name="panel2">
 
             <label for="panel3" class="label">Panel 3 Name</label>
-            <input type="text" id="panel3" name="panel3" required>
+            <input type="text" id="panel3" name="panel3">
 
             <div class="button-group">
                 <button type="button" class="cancel-btn" onclick="closeModal()">Cancel</button>
@@ -190,8 +190,8 @@ document.getElementById("scheduleForm").addEventListener("submit", function(even
         mode: document.getElementById("mode").value,
         location: document.getElementById("location").value,
         panel1: document.getElementById("panel1").value,
-        panel2: document.getElementById("panel2").value,
-        panel3: document.getElementById("panel3").value
+        panel2: document.getElementById("panel2").null,
+        panel3: document.getElementById("panel3").null
     };
 
     fetch("reschedule_process.php", {
