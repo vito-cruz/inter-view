@@ -145,10 +145,10 @@ include 'db_connect.php'; // Include the database connection
             <input type="text" id="panel1" name="panel1" required>
 
             <label for="panel2" class="label">Panel 2 Name</label>
-            <input type="text" id="panel2" name="panel2" required>
+            <input type="text" id="panel2" name="panel2" optional>
 
             <label for="panel3" class="label">Panel 3 Name</label>
-            <input type="text" id="panel3" name="panel3" required>
+            <input type="text" id="panel3" name="panel3" optional>
 
             <div class="button-group">
                 <button type="button" class="cancel-btn" onclick="closeModal()">Cancel</button>
