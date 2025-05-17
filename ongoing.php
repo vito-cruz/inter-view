@@ -121,7 +121,7 @@
         <form id="scoreForm">
             <input type="hidden" id="scoreApplicantNo" name="applicantNo">
             <div class="form-group">
-                <label for="interviewScore">Score</label>
+                <label for="interviewScore">Panel 1</label>
                 <select id="interviewScore" name="interviewScore" required>
                     <option value="" disabled selected>Select Score</option>
                     <option value="1">1 - Excellent</option>
@@ -135,7 +135,50 @@
                 <button type="button" class="cancel-btn" onclick="closeScoreModal()">Cancel</button>
                 <button type="submit" class="submit-btn">Submit</button>
             </div>
-        </form>
+
+
+<div id="scoreModal" class="modal">
+    <div class="modal-content">
+        <h2>Interview Score</h2>
+        <form id="scoreForm">
+            <input type="hidden" id="scoreApplicantNo" name="applicantNo">
+            <div class="form-group">
+                <label for="interviewScore">Panel 2</label>
+                <select id="interviewScore" name="interviewScore" required>
+                    <option value="" disabled selected>Select Score</option>
+                    <option value="1">1 - Excellent</option>
+                    <option value="2">2 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="4">4 - Below Average</option>
+                    <option value="5">5 - Poor</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button type="button" class="cancel-btn" onclick="closeScoreModal()">Cancel</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        
+        
+        <div id="scoreModal" class="modal">
+    <div class="modal-content">
+        <h2>Interview Score</h2>
+        <form id="scoreForm">
+            <input type="hidden" id="scoreApplicantNo" name="applicantNo">
+            <div class="form-group">
+                <label for="interviewScore">Panel 3</label>
+                <select id="interviewScore" name="interviewScore" required>
+                    <option value="" disabled selected>Select Score</option>
+                    <option value="1">1 - Excellent</option>
+                    <option value="2">2 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="4">4 - Below Average</option>
+                    <option value="5">5 - Poor</option>
+                </select>
+            </div>
+            <div class="button-group">
+                <button type="button" class="cancel-btn" onclick="closeScoreModal()">Cancel</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div></form>
     </div>
 </div>
 <script>
